@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+// 1. Configuration and helpers
+
+// 2. Vendors
+
+// 3. Base stuff
+@use "./base/global";
+
+// 4. Layout-related sections
+@use "./layout/main-header";
+@use "./layout/main-nav";
+@use "./layout/main-footer";
+@use "./layout/welcome";
+@use "./layout/testimonials";
+@use "./layout/main";
+@use "./layout/historia";
+@use "./layout/staff";
+
+// 5. Components
+@use "./components/holder";
+@use "./components/section";
+@use "./components/testimonial";
+@use "./components/person";
+
+// 6. Page-specific styles
+
+// 7. Themes

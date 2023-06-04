@@ -1,0 +1,24 @@
+{
+  "name": "integrador-ba-m",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "sass sass/main.scss css/transportes.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cmoros/integrador-BA-M.git"
+  },
+  "keywords": [],
+  "author": "César Moros <rdcesar442@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cmoros/integrador-BA-M/issues"
+  },
+  "homepage": "https://github.com/Cmoros/integrador-BA-M#readme",
+  "devDependencies": {
+    "sass": "^1.62.1"
+  }
+}
