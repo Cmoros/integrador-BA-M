@@ -1,7 +1,7 @@
 .main-nav {
   background-color: #6da9ed;
   margin-bottom: 20px;
-  display: none;
+  // display: none;
   @media screen and (min-width: 768px) {
     display: block;
   }
@@ -11,9 +11,13 @@
     margin: 0;
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
 
     &-item {
-      flex-grow: 1;
+      flex: 30% 1 1;
+      @media screen and (min-width: 768px) {
+        flex: 0% 1 1;
+      }
     }
 
     &-link {

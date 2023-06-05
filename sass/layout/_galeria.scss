@@ -1,13 +1,21 @@
 .galeria {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
 
   &__img {
-    width: 18%;
     border: 1px solid #ddd;
-    padding: 0.3em;
+    padding: 0.5em;
     box-sizing: border-box;
-    margin: 0 2% 20px 0;
+    margin: 10px 1%;
+    width: 48%;
+
+    @media screen and (min-width: 425px) {
+      width: 31%;
+    }
+
+    @media screen and (min-width: 768px) {
+      width: 18%;
+    }
   }
 }
