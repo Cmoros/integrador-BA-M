@@ -1,6 +1,10 @@
 .main-nav {
   background-color: #6da9ed;
   margin-bottom: 20px;
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
 
   &__list {
     list-style: none;
