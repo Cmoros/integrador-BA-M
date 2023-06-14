@@ -17,7 +17,7 @@ Este es un proyecto integrador para el curso de Desarrollo Web de BA Multiplica.
 1. Clona el repositorio:
 
    ```shell
-   git clone https://github.com/tu-nombre-de-usuario/nombre-del-proyecto.git
+   git clone https://github.com/Cmoros/integrador-BA-M.git
    ```
 
 2. Navega hasta el directorio del proyecto:
