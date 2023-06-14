@@ -78,17 +78,25 @@ img {
   position: absolute;
   width: 100%;
   bottom: 0;
+  display: block;
+}
+@media (min-width: 768px) {
+  .main-footer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
 }
 .main-footer__img {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   margin-bottom: 10px;
   transition: all 0.25s;
 }
 .main-footer__img:hover {
-  width: 75px;
-  height: 75px;
+  width: 60px;
+  height: 60px;
 }
 .main-footer__img-container {
   display: flex;
